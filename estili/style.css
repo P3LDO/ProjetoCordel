@@ -49,8 +49,12 @@ header a:hover, footer a:hover{
 }
 
 section{
-    padding: 10% 0px 10% 30px;
+    padding: 10% 10px 10% 30px;
     line-height: 2em;
+}
+
+section p {
+    padding-bottom: 2em;
 }
 
 .ttl{
@@ -70,13 +74,27 @@ section{
 
 .img{
     background-color: rgb(39, 39, 39);
-    color: gray;
+    color: white;
+    box-shadow: inset 5px 4px 15px 0cap
+    black;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .img p{
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.267);
-    width: 40%;
+    padding: 5px;
+    text-shadow: 3px 3px 0px black;
+}
+
+#img01{
+    background-image: url(../imagens/background001.jpg);
+}
+
+#img02{
+    background-image: url(../imagens/background002.jpg);
 }
 
 footer {
